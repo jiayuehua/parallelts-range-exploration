@@ -20,10 +20,11 @@
 /// \file tuple.hpp
 /// \brief Tuples standard layout implementation.
 /// http://en.cppreference.com/w/cpp/utility/tuple
-
 #ifndef VISIONCPP_INCLUDE_FRAMEWORK_TOOLS_TUPLE_HPP_
 #define VISIONCPP_INCLUDE_FRAMEWORK_TOOLS_TUPLE_HPP_
-
+#include <utility>
+#include <cstddef>
+using std::size_t;
 namespace visioncpp {
 namespace internal {
 namespace tools {
@@ -61,7 +62,6 @@ struct Tuple<T, Ts...> {
   Tuple<Ts...> tail;
 
 };
-
 /// \struct ElemTypeHolder
 /// \brief ElemTypeHolder class is used to specify the types of the
 /// elements inside the tuple.

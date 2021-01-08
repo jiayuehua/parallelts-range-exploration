@@ -22,8 +22,8 @@ add_test(test.view.const, view.const)
 add_executable(view.counted counted.cpp)
 add_test(test.view.counted, view.counted)
 
-add_executable(view.cycle cycle.cpp)
-add_test(test.view.cycle, view.cycle)
+#add_executable(view.cycle cycle.cpp)
+#add_test(test.view.cycle, view.cycle)
 
 add_executable(view.delimit delimit.cpp)
 add_test(test.view.delimit, view.delimit)
@@ -82,8 +82,8 @@ add_test(test.view.replace_if, view.replace_if)
 add_executable(view.reverse reverse.cpp)
 add_test(test.view.reverse, view.reverse)
 
-add_executable(view.sample sample.cpp)
-add_test(test.view.sample, view.sample)
+#add_executable(view.sample sample.cpp)
+#add_test(test.view.sample, view.sample)
 
 add_executable(view.set_difference set_difference.cpp)
 add_test(test.view.set_difference, view.set_difference)
@@ -91,11 +91,11 @@ add_test(test.view.set_difference, view.set_difference)
 add_executable(view.set_intersection set_intersection.cpp)
 add_test(test.view.set_intersection, view.set_intersection)
 
-add_executable(view.set_symmetric_difference set_symmetric_difference.cpp)
-add_test(test.view.set_symmetric_difference, view.set_symmetric_difference)
+#add_executable(view.set_symmetric_difference set_symmetric_difference.cpp)
+#add_test(test.view.set_symmetric_difference, view.set_symmetric_difference)
 
-add_executable(view.set_union set_union.cpp)
-add_test(test.view.set_union, view.set_union)
+#add_executable(view.set_union set_union.cpp)
+#add_test(test.view.set_union, view.set_union)
 
 add_executable(view.slice slice.cpp)
 add_test(test.view.slice, view.slice)
@@ -118,11 +118,11 @@ add_test(test.view.take_while, view.take_while)
 add_executable(view.tokenize tokenize.cpp)
 add_test(test.view.tokenize, view.tokenize)
 
-add_executable(view.transform transform.cpp)
-add_test(test.view.transform, view.transform)
+#add_executable(view.transform transform.cpp)
+#add_test(test.view.transform, view.transform)
 
 add_executable(view.unique unique.cpp)
 add_test(test.view.unique, view.unique)
 
-add_executable(view.zip zip.cpp)
-add_test(test.view.zip, view.zip)
+#add_executable(view.zip zip.cpp)
+#add_test(test.view.zip, view.zip)

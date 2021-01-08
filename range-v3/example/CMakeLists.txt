@@ -1,5 +1,5 @@
-add_executable(comprehensions comprehensions.cpp)
-add_test(test.example.comprehensions, comprehensions)
+#add_executable(comprehensions comprehensions.cpp)
+#add_test(test.example.comprehensions, comprehensions)
 
 add_executable(tests tests.cpp)
 add_test(test.example.tests, tests)
